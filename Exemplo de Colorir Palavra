@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exemplo de Colorir Palavra</title>
+  </head>
+  <body>
+      <p>Eu gosto de <span style="color: red;">programar</span> todos os dias.</p>
+  </body>
+</html>
