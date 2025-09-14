@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Perfil Pessoal</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        .imagem-centralizada {
+      text-align: center;
+    }
+img{
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid green;
+}
+h2 {
+  color: green;
+  text-align: center;
+}
+h4 {
+  color: grey;
+  text-align: center;
+}
+p {
+  color: grey;
+  text-align: center;
+}
+.linguagens-programação {
+      background-color: #00FF00;
+      color: white;
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="imagem-centralizada">
+      <img src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/05/gato-laranja-e1748043537291.jpg?w=1200&h=900&crop=0" alt="Perfil" width="200">
+    </div>
+    <h2>Emanuel Soares</h2> 
+    <h4>Ciência da Computação</h4>
+    <p>Olá! meu nome é Emanuel e sou apaixonado por tecnologia e programação.</p>
+    <p>Tenho experiência em Python, HTML, CSS, C e outras tecnologias modernas.</p>
+    <p>Adoro criar novos programas úteis e funcionais que proporcionam uma ótima experiência ao usuário.</p>
+    <div class="linguagens-programação">
+      <p>Python</p>   <p>HTML</p>   <p>CSS</p>    <p>C</p>
+    </div>
+  </body>
+</html>
