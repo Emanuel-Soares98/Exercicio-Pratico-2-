@@ -4,9 +4,9 @@
     <title>Perfil Pessoal</title>
     <link rel="stylesheet" href="styles.css" />
     <style>
-        .imagem-centralizada {
+.imagem-centralizada {
       text-align: center;
-    }
+}
 img{
   height: 200px;
   border-radius: 50%;
@@ -29,6 +29,34 @@ p {
       color: white;
       text-align: center;
     }
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+.skill {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.social a {
+  margin: 0 12px;
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.social a:hover {
+  color: #388E3C;
+}
+.social {
+  text-align: center;
+}
     </style>
   </head>
   <body>
@@ -40,8 +68,17 @@ p {
     <p>Olá! meu nome é Emanuel e sou apaixonado por tecnologia e programação.</p>
     <p>Tenho experiência em Python, HTML, CSS, C e outras tecnologias modernas.</p>
     <p>Adoro criar novos programas úteis e funcionais que proporcionam uma ótima experiência ao usuário.</p>
-    <div class="linguagens-programação">
-      <p>Python</p>   <p>HTML</p>   <p>CSS</p>    <p>C</p>
+    <div class="skills">
+      <span class="skill">HTML</span>
+      <span class="skill">CSS</span>
+      <span class="skill">JavaScript</span>
+      <span class="skill">React</span>
     </div>
-  </body>
+
+    <div class="social">
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+      <a href="#">Twitter</a>
+    </div>
+  </div>
 </html>
