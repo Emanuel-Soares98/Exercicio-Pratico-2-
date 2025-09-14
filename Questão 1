@@ -24,11 +24,6 @@ p {
   color: grey;
   text-align: center;
 }
-.linguagens-programação {
-      background-color: #00FF00;
-      color: white;
-      text-align: center;
-    }
 .skills {
   display: flex;
   justify-content: center;
